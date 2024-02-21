@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountryDetail</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b578a0bac6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h2>Where in the World?</h2>
+        <button id="darkModeToggle"><i class="fa-solid fa-moon"></i><span>Dark Mode</span></button>
+    </div>
+    <section class="details-section">
+        <a href="index.html"><button class="back-btn">Back</button></a>
+        <div class="details-grid">
+            <div class="details-flag">
+                <img src="" alt="flag-image">
+            </div>
+            <div class="text-grid">
+                <h3 class="country-name"></h3>
+                <p>Native Name: <span class="native-name"></span></p>
+                <p>Population: <span class="population"></span></p>
+                <p>Region: <span class="region"></span></p>
+                <p>Sub Region: <span class="sub-region"></span></p>
+                <p>Capital: <span class="capital"></span></p>
+                <p>Top Level Domain: <span class="tld"></span></p>
+              
+                <p>Languages: <span class="languages"></span></p>
+                <div class="border-countries-box">
+                    Border Countries: 
+                </div>
+                <ul class="neighboring-countries" id="neighboring-countries"></ul>
+            </div>
+        </div>  
+    </section>
+    <script src="countrydetaial.js"></script>
+</body>
+</html>
